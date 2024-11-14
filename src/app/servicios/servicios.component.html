@@ -7,33 +7,11 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-4 mb-4">
+      <div class="col-md-4 mb-4" *ngFor="let service of services">
         <div class="card shadow-lg rounded-3">
           <div class="card-body">
-            <h5 class="card-title">Análisis de Mercado</h5>
-            <p class="card-text">Identificamos oportunidades y tendencias en el mercado para ayudarte a tomar decisiones.</p>
-          </div>
-          <div class="card-footer text-center">
-            <a href="#!" class="btn btn-primary">Ver más</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card shadow-lg rounded-3">
-          <div class="card-body">
-            <h5 class="card-title">Creación de Contenido</h5>
-            <p class="card-text">Desarrollamos contenido atractivo y relevante para tu marca, incluyendo textos, imágenes y videos.</p>
-          </div>
-          <div class="card-footer text-center">
-            <a href="#!" class="btn btn-primary">Ver más</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card shadow-lg rounded-3">
-          <div class="card-body">
-            <h5 class="card-title">Marketing Digital</h5>
-            <p class="card-text">Desarrollamos estrategias de marketing digital personalizadas para aumentar tu visibilidad.</p>
+            <h5 class="card-title">{{ service.name }}</h5>
+            <p class="card-text">{{ service.description }}</p>
           </div>
           <div class="card-footer text-center">
             <a href="#!" class="btn btn-primary">Ver más</a>
@@ -43,3 +21,4 @@
     </div>
   </div>
 </section>
+
