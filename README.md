@@ -32,4 +32,4 @@ La aplicación incluye las siguientes páginas, cada una cargada a través de su
 Clona este repositorio usando el siguiente comando:
 
 ```bash
-git clone https://github.com/usuario/mi-web-angular.git
+git clone https://github.com/Javigarcilop/ra3-web-angular.git
