@@ -7,6 +7,8 @@ import { ServiciosComponent } from './servicios/servicios.component';
 import { PoliticaPrivacidadComponent } from './politica-privacidad/politica-privacidad.component';
 
 
+
+
 const routes: Routes = [
   { path: '', redirectTo: '', pathMatch: 'full' },
   { path: 'inicio', component: InicioComponent },
@@ -14,7 +16,6 @@ const routes: Routes = [
   { path: 'contacto', component: ContactoComponent },
   { path: 'servicios', component: ServiciosComponent },
   { path: 'politicaPrivacidad', component: PoliticaPrivacidadComponent }
-
 ];
 
 @NgModule({
