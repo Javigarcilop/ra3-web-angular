@@ -1,0 +1,43 @@
+.btn-primary {
+  background-color: #FFA500;
+  border-color: #FFA500;
+}
+
+.col-md-4 mb-4 {
+  text-align: center;
+}
+
+h2 {
+  background-color: #FFA500;
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.card .card-body {
+  flex-grow: 1;
+}
+.card .card-footer {
+  margin-top: auto;
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.btn-primary {
+  font-size: 1rem;
+}/*# sourceMappingURL=servicios.component.css.map */

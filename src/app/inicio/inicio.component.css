@@ -1,0 +1,28 @@
+.hero-section {
+  background: url("/assets/images/fotoCabecera.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-title {
+  font-size: 3rem;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #FFA500;
+  border-color: #FFA500;
+}
+
+.btn-primary:hover {
+  background-color: #ff8c00;
+  border-color: #ff8c00;
+}/*# sourceMappingURL=inicio.component.css.map */

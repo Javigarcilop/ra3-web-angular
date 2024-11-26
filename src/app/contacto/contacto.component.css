@@ -1,0 +1,29 @@
+.map-container {
+  height: 400px;
+  width: 100%;
+  border: none;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+h2 {
+  background-color: #FFA500;
+  color: white;
+}
+
+h3 {
+  background-color: #FFA500;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #FFA500;
+  border-color: #FFA500;
+}/*# sourceMappingURL=contacto.component.css.map */
